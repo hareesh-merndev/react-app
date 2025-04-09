@@ -1,17 +1,25 @@
-.student{
+.student {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #f1f3f6;
     border-radius: 8px;
-    background-color: rgb(154, 189, 72);
+    background-color: rgb(102, 212, 88);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
-.grid{
+
+.student:hover {
+    background-color: rgb(211, 125, 67); 
+    transform: scale(1.05); 
+}
+
+.grid {
     display: grid;
-    grid-template-columns:  repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 @media (max-width: 900px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
