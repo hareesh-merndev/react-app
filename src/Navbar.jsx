@@ -23,7 +23,7 @@ const Navbar = () => {
           right: "0",
           width: "100%",
           zIndex: "1000",
-          backgroundColor: "black",
+          backgroundColor: "rgba(0, 0, 0, 0.5)"
         }}
       >
         <div>
