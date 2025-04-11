@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import hareeshlogo from "./assets/hareesh.jpeg";
 import linkedinlogo from "./assets/download.png";
 import instalogo from "./assets/download.jfif";
-import "./Profilecard.css";
 import VanillaTilt from "vanilla-tilt";
 
 const profilelist = {
